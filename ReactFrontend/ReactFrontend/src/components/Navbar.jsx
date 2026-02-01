@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Brand */}
         <div className="flex items-center gap-2">
-          <img src={icon} alt="icon" className="w-16 h-16" />
+          <img src={icon} alt="icon" className="w-12 h-12" />
           <span className="text-2xl font-bold text-slate-900">CEPV</span>
           <span className="hidden sm:block text-md text-slate-500">
             Chemical Equipment Parameter Visualizer
