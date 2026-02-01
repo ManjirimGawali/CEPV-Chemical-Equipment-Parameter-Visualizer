@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import api from "../api/client";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export default function SignupPage() {
   const [username, setUsername] = useState("");
@@ -215,6 +216,7 @@ export default function SignupPage() {
             </a>
           </p>
         </div>
+      <Footer />
       </div>
     </div>
   );

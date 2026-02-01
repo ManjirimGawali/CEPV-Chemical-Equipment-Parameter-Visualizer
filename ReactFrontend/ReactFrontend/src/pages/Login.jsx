@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import api from "../api/client";
+import Footer from "../components/Footer";
 
 export default function LoginPage() {
   const navigate = useNavigate();
@@ -107,9 +108,6 @@ export default function LoginPage() {
               disabled={loading}
               className="w-full py-3 px-4 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 disabled:bg-slate-500 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center gap-2 mt-6"
             >
-
-              
-
               {loading ? (
                 <>
                   <span className="h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent" />
@@ -144,6 +142,7 @@ export default function LoginPage() {
         <div className="text-center text-xs text-slate-500 mt-8">
           Secure login powered by token authentication
         </div>
+      <Footer />
       </div>
     </div>
   );
