@@ -1,8 +1,6 @@
 > WEBSITE LIVE LINK : https://cepv-visualizer.onrender.com/
 
-> DESKTOP APP EXE FILE SHARE ON DRIVE : https://drive.google.com/file/d/1603yFZSnbDfFOPfP0M2fZQkt469dVgdG/view?usp=sharing 
-
-(DESKTOP APP READY IS TO RUN)
+> DESKTOP APP EXE FILE SHARE ON DRIVE : https://drive.google.com/file/d/1603yFZSnbDfFOPfP0M2fZQkt469dVgdG/view?usp=sharing  (DESKTOP APP READY IS TO RUN)
 
 > BACKEND IS DEPLOYED ON RENDER (COLD START) : https://cepv-chemical-equipment-parameter.onrender.com 
 PLEASE WAIT IF LOADING...............
