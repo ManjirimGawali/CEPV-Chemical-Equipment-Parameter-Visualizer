@@ -48,9 +48,14 @@ The project is built as **three connected applications**:
 - Ready for `.exe` packaging
 
 ---
+```bash
 
 ## 📁 Repository Structure
-
+cepv/
+├── frontend/ # React web app
+├── backend/ # Django backend (API)
+├── desktop/ # PyQt5 desktop app
+├── README.md
 
 ---
 
@@ -68,7 +73,6 @@ The project is built as **three connected applications**:
 ## 1️⃣ Frontend Setup
 
 ### Create project
-```bash
 npm create vite@latest cepv-frontend
 cd cepv-frontend
 npm install
@@ -111,7 +115,7 @@ SQLite (dev) / PostgreSQL (prod)
 
 CORS Headers
 
-1️⃣ Backend Setup
+## 1️⃣ Backend Setup
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install django djangorestframework django-cors-headers pandas reportlab python-dotenv
@@ -174,7 +178,7 @@ python manage.py runserver
 | GET    | `/api/dataset/<id>/analyze/` | Analyze dataset |
 | GET    | `/api/report/<id>/`          | Download PDF    |
 
-🖥️ DESKTOP APP (PyQt5)
+## 🖥️ DESKTOP APP (PyQt5)
 Tech Stack
 
 PyQt5
